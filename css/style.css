@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 #container{
     width: 80%;
@@ -58,4 +61,13 @@
 
 .green{
     background-color: rgb(25, 128, 85);
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.discounted_price{
+    text-decoration: line-through;
 }
