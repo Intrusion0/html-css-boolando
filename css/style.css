@@ -75,3 +75,19 @@
 .discounted_price{
     text-decoration: line-through;
 }
+
+.container_img_due{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: pointer;
+}
+
+.products:hover .container_img_due{
+    display: block;
+}
+
+.products:hover .container_img{
+    display: none;
+}
