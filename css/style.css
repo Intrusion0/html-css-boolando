@@ -63,6 +63,10 @@
     background-color: rgb(25, 128, 85);
 }
 
+.right{
+    margin-left: 50px;
+}
+
 .price{
     color: red;
     font-weight: bold;
