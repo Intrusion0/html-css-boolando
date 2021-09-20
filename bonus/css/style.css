@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#categorie{
+    position: relative;
+    line-height: 50px;
+}
+
+#categorie nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+
+header a img {
+    vertical-align: middle;
+    height: 40px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav, .svg {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_2 {
+    width: 100%;
+}
+
+.container_2 .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.products {
+    float: left;
+    width: calc(100% / 3);
+    padding: 30px 10px;
+}
+
+.products img {
+    width: 100%;
+}
+
+.container_img {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 0 10px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.discounts_and_sustainability {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: rgb(25, 128, 85);
+}
+
+.right {
+    margin-left: 50px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.discounted_price {
+    text-decoration: line-through;
+}
+
+.container_img_due {
+    position: relative;
+    width: 100%;
+    display: none;
+    cursor: pointer;
+}
+
+.products:hover .container_img_due {
+    display: block;
+}
+
+.products:hover .container_img {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#heart {
+    color: red;
+}
